@@ -44,4 +44,4 @@ jobs:
       - name : Display Outputs
         run: |
           echo "Build artifacts downloaded successfully."
-          ls -la dist
+          ls 
