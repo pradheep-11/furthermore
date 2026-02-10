@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
       - name: Install dependencies
         run: npm ci
       - name: Build website
@@ -43,5 +43,5 @@ jobs:
           name: website-build
       - name : Display Outputs
         run: |
-          echo "Build artifacts downloaded successfully."
-          ls 
+         ls
+         echo "Build artifacts downloaded successfully." 
